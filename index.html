@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0d884f97a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="home">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" alt="" class="logo">
+                <ul id="tab">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#mywork">My work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="head-text">
+                <p>UI/UX Designer</p>
+                <h1>Hii,I'm <span> Ashutosh</span> <br>from Muzaffarnagar</h1>
+
+
+<!-- 
+                <h2>Hii,<br> I'm <span>Ashutosh</span></h1><br>
+                    <h1><span>UI / UX </span> Developer</h1><br>
+                    <p><i class="fas fa-location-dot"></i>
+                        Muzaffarnagar, Uttar Pardesh</p> -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About  -->
+    <div id="about">
+        <div class="container">
+            <div class="about-sec">
+                <div class="about-img">
+                    <img src="images/p2.png" alt="">
+                </div>
+
+
+                <div class="about-right">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hii, I am Ashutosh from Muzaffarnagar , Uttar Pardesh. Currently i am pursuing Bachelor in
+                        computer application from meerut institute of technology , meerut.
+                        <br><br> I am a highly self motivated front end Developer.
+                    </p>
+
+                    <div class="about-me-button">
+                        <button onclick="f1()" id="btn1">Skill</button>
+                        <button onclick="f2()" id="btn2">Experince</button>
+                        <button onclick="f3()" id="btn3">Education</button>
+                    </div>
+
+                    <div class="tab-contents" id="skill">
+                      <table>
+                        <tr>
+                            <td>C++</td>
+                            <td>Java</td>
+                            <td>Phython</td>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>CSS</td>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>Data Structures and algorithms</td>
+                            <td>Object Oriented Programming</td>
+                            <td>SQL</td>
+                        </tr>
+                        <tr>
+                            <td>Tailwind CSS</td>
+                            <td>BootStrap</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Intern as a DSA Scholar</span><br></li>
+                            <li>This is a learning based Internship program offered by TwoWaits Technologies pvt. ltd.
+                                and I join this a DSA Scholar.
+                                This is a one month program from nov 1 - nov 30. <br><br>
+                                In this internship we have to done three tasks which are : <br><br>
+                                1. Learn basic data Structures (array,stack,queue and linked list).<br>
+                                2. Prepare notes of each topics. <br>
+                                3. Solve any 10 problem from the given list.
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor in computer application</span><br>computer application <br> percentage :
+                                76.5</li>
+                            <li><span>Inter School</span><br>PCM <br> percentage : 80</li>
+                            <li><span>High School</span><br>PCM <br> percentage : 72.2</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+
+
+            <div class="work-block">
+                <div>
+                    <img src="images/rest.jpg" alt="">
+                    <h2>XYZ restaurant  UI</h2>
+                    <p>This is a fully responsive restaurant website. I have used flexbox and grid for making this project. <br><br><h3>Technology used :- HTML CSS</h3></p>
+                    <a href="restau/restaurant.html" target="_blank">See</a>
+                </div>
+                <div>
+                    <img src="images/my_music.jpg" alt="">
+                    <h2>My music UI</h2>
+                    <p>My music website provide the facility of listning<br> latest music as well as download the music easily <br><br><h3>Technology used :- HTML CSS JavaScript</h3></p>
+                    <a href="my_music/index.html" target="_blank">See</a>
+                </div>
+                <div>
+                    <img src="images/quiz_2.jpg" alt="">
+                    <h2>Quiz Game</h2>
+                    <p>This is a quiz game in this game we have two type of quiz one is G k and other one is math.<br><br><h3>Technology used :- C++</h3> </p>
+                    <a href="https://replit.com/@mailashutosh246/Quiz-Game" target="_blank">See</a>
+                </div>
+                <div>
+                    <img src="images/number_2.jpg" alt="">
+                    <h2>Number Guessing game<h2>
+                    <p>In this game our code picks a random number between 1 to 100 and <br>player have to guess it as quickly as possible. <br><br><h3>Technology used :- C++</h3></p>
+                    <a href="https://replit.com/@mailashutosh246/Random-Number-Game" target="_blank">See</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact1">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-envelope"></i>&#160 mail.ashutosh246.com</p>
+                <p><i class="fa fa-phone"></i></i>&#160&#160<i class="fa-brands fa-whatsapp"></i> &#160 6398529296</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/ashutosh-037463220" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Ashutosh021" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.codingninjas.com/codestudio/profile/552174a4-09c3-4c1b-91f0-3d85c5e9e36f" target="_blank"><img src="images/cn.jpg" alt=""></a>
+                    <a href="https://auth.geeksforgeeks.org/user/ashutoshbca2020" target="_blank"><img src="images/gfg.jpg" alt=""></a>
+                </div>
+                <a href="Ashutosh.pdf" download class="btn">Download CV</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>copyright @ Ashutosh. All Right Reserved</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
